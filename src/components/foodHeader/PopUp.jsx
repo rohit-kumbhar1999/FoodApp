@@ -66,7 +66,7 @@ const PopUp = (props) => {
             <tbody>
               <tr className="thead">
                 <td>
-                  <span className="popup_items">${price}</span>
+                  <span className="popup_items">${price.toFixed(2)}</span>
                 </td>
               </tr>
             </tbody>
